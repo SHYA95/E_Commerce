@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		2A1D7C0528EDF3210074AC89 /* SignupViewController .swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D7C0428EDF3210074AC89 /* SignupViewController .swift */; };
 		2A1D7C0728EE010E0074AC89 /* UIviewExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1D7C0628EE010E0074AC89 /* UIviewExtention.swift */; };
+		2A648B9328EEEAFE002CBFE6 /* RobotoSlab-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A648B8F28EEEAFE002CBFE6 /* RobotoSlab-Bold.ttf */; };
+		2A648B9428EEEAFE002CBFE6 /* RobotoSlab-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A648B9028EEEAFE002CBFE6 /* RobotoSlab-Thin.ttf */; };
+		2A648B9528EEEAFE002CBFE6 /* RobotoSlab-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A648B9128EEEAFE002CBFE6 /* RobotoSlab-Light.ttf */; };
+		2A648B9628EEEAFE002CBFE6 /* RobotoSlab-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A648B9228EEEAFE002CBFE6 /* RobotoSlab-Regular.ttf */; };
+		2A648B9828EF8219002CBFE6 /* ForgetPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A648B9728EF8219002CBFE6 /* ForgetPassViewController.swift */; };
 		2A99B21D28EC6614003687C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99B21C28EC6614003687C5 /* AppDelegate.swift */; };
 		2A99B21F28EC6614003687C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99B21E28EC6614003687C5 /* SceneDelegate.swift */; };
 		2A99B22128EC6614003687C5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A99B22028EC6614003687C5 /* LoginViewController.swift */; };
@@ -20,6 +25,11 @@
 /* Begin PBXFileReference section */
 		2A1D7C0428EDF3210074AC89 /* SignupViewController .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SignupViewController .swift"; sourceTree = "<group>"; };
 		2A1D7C0628EE010E0074AC89 /* UIviewExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIviewExtention.swift; sourceTree = "<group>"; };
+		2A648B8F28EEEAFE002CBFE6 /* RobotoSlab-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Bold.ttf"; sourceTree = "<group>"; };
+		2A648B9028EEEAFE002CBFE6 /* RobotoSlab-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Thin.ttf"; sourceTree = "<group>"; };
+		2A648B9128EEEAFE002CBFE6 /* RobotoSlab-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Light.ttf"; sourceTree = "<group>"; };
+		2A648B9228EEEAFE002CBFE6 /* RobotoSlab-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoSlab-Regular.ttf"; sourceTree = "<group>"; };
+		2A648B9728EF8219002CBFE6 /* ForgetPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassViewController.swift; sourceTree = "<group>"; };
 		2A99B21928EC6614003687C5 /* E_Commerce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = E_Commerce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A99B21C28EC6614003687C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A99B21E28EC6614003687C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +51,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A648B8E28EEEAC8002CBFE6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2A648B8F28EEEAFE002CBFE6 /* RobotoSlab-Bold.ttf */,
+				2A648B9128EEEAFE002CBFE6 /* RobotoSlab-Light.ttf */,
+				2A648B9228EEEAFE002CBFE6 /* RobotoSlab-Regular.ttf */,
+				2A648B9028EEEAFE002CBFE6 /* RobotoSlab-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		2A99B21028EC6614003687C5 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +81,7 @@
 		2A99B21B28EC6614003687C5 /* E_Commerce */ = {
 			isa = PBXGroup;
 			children = (
+				2A648B8E28EEEAC8002CBFE6 /* Fonts */,
 				2A99B21C28EC6614003687C5 /* AppDelegate.swift */,
 				2A99B21E28EC6614003687C5 /* SceneDelegate.swift */,
 				2A99B22028EC6614003687C5 /* LoginViewController.swift */,
@@ -69,6 +91,7 @@
 				2A99B22528EC6617003687C5 /* Assets.xcassets */,
 				2A99B22728EC6617003687C5 /* LaunchScreen.storyboard */,
 				2A99B22A28EC6617003687C5 /* Info.plist */,
+				2A648B9728EF8219002CBFE6 /* ForgetPassViewController.swift */,
 			);
 			path = E_Commerce;
 			sourceTree = "<group>";
@@ -131,6 +154,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A648B9628EEEAFE002CBFE6 /* RobotoSlab-Regular.ttf in Resources */,
+				2A648B9328EEEAFE002CBFE6 /* RobotoSlab-Bold.ttf in Resources */,
+				2A648B9428EEEAFE002CBFE6 /* RobotoSlab-Thin.ttf in Resources */,
+				2A648B9528EEEAFE002CBFE6 /* RobotoSlab-Light.ttf in Resources */,
 				2A99B22928EC6617003687C5 /* LaunchScreen.storyboard in Resources */,
 				2A99B22628EC6617003687C5 /* Assets.xcassets in Resources */,
 				2A99B22428EC6614003687C5 /* Main.storyboard in Resources */,
@@ -148,6 +175,7 @@
 				2A99B21D28EC6614003687C5 /* AppDelegate.swift in Sources */,
 				2A1D7C0728EE010E0074AC89 /* UIviewExtention.swift in Sources */,
 				2A99B21F28EC6614003687C5 /* SceneDelegate.swift in Sources */,
+				2A648B9828EF8219002CBFE6 /* ForgetPassViewController.swift in Sources */,
 				2A1D7C0528EDF3210074AC89 /* SignupViewController .swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,6 +323,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = E_Commerce/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "E-Commerce";
@@ -324,6 +353,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8BLTDM2ZG;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = E_Commerce/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "E-Commerce";
