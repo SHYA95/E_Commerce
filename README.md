@@ -4,5 +4,4 @@ provides a platform for ecommerce stores to showcase and sell their products, en
 generating profits. The app utilizes Swift, UIKit, MVC architecture, Search Controller, Storyboard, Google Maps
 integration, Firebase services, and Realm database for efficient functionality and enhanced user experience.
 Project link:
-[[https://drive.google.com/file/d/1OaxeH7DxHsd9Bj9zr3_cxNYXRud6OueU/view?usp=drive_link](https://drive.google.com/file/d/1OaxeH7DxHsd9Bj9zr3_cxNYXRud6OueU/view?usp=sharing)https://drive.google.com/file/d/1OaxeH7DxHsd9Bj9zr3_cxNYXRud6OueU/view?usp=sharing
-](https://drive.google.com/file/d/1OaxeH7DxHsd9Bj9zr3_cxNYXRud6OueU/view?usp=drive_link)https://drive.google.com/file/d/1OaxeH7DxHsd9Bj9zr3_cxNYXRud6OueU/view?usp=drive_link
+[[https://drive.google.com/file/d/1OaxeH7DxHsd9Bj9zr3_cxNYXRud6OueU/view?usp=drive_link]
